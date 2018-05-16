@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../banana-suite-common</module>
+        <module>../banana-suit-cache</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -24,6 +25,17 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <compiler.jdk.version>1.8</compiler.jdk.version>
+        <output.encoding>utf-8</output.encoding>
+        <spring.version>4.3.7.RELEASE</spring.version>
+        <kafka.version>0.10.2.0</kafka.version>
+        <zkclient.version>0.10</zkclient.version>
+        <zookeeper.version>3.4.9</zookeeper.version>
+        <jedis.version>2.9.0</jedis.version>
+        <mybatis.version>3.4.2</mybatis.version>
+        <mapper.version>3.3.9</mapper.version>
+        <druid.version>1.0.16</druid.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencies>
