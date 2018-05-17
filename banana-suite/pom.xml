@@ -9,7 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../banana-suite-common</module>
-        <module>../banana-suit-cache</module>
+        <module>../banana-suite-spring</module>
+        <module>../banana-suite-cache</module>
     </modules>
     <packaging>pom</packaging>
 
